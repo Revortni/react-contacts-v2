@@ -1,0 +1,67 @@
+.nav_bar ul li {
+  float: left;
+  padding: 20px;
+}
+
+.nav_bar ul li * {
+  padding: 15px;
+}
+
+.nav_bar ul li:hover * {
+  border-top: 5px solid #4cf;
+}
+
+.nav_selected {
+  padding-bottom: 15px;
+  border-bottom: 5px solid #008000;
+}
+
+.nav_bar_wrapper {
+  background-color: #efefef;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.pages {
+  padding: 20px;
+}
+.pages p {
+  margin: 20px 0;
+}
+
+.user_list_wrapper h2 {
+  padding: 20px;
+}
+
+.user_list li {
+  float: left;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.user_list li div {
+  display: none;
+}
+
+.user_list li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+}
+
+.user_list li:hover div {
+  display: block;
+}
+
+.user_list li:hover {
+  color: #4cf;
+  text-align: center;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.user_list li:hover img {
+  width: 170px;
+  height: 170px;
+  transition-duration: 0.5s;
+}

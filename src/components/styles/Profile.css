@@ -1,0 +1,51 @@
+.profile_image_wrapper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile_image {
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile_wrapper {
+  background-color: #fefefe;
+}
+.profile_info {
+  padding: 15px;
+}
+
+.profile_info div {
+  padding: 10px;
+}
+
+.profile_info div:not(.profile_info_title) {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.profile_info_title {
+  font-size: 20px;
+  color: #111;
+}
+
+.profile_info div span {
+  float: right;
+}
+
+.profile_info div span a:hover {
+  color: #4cf;
+}
+
+@media screen and (min-width: 1170px) {
+  .back_button {
+    padding: 24px 10px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1170px) {
+  .back_button {
+    padding: 24px 10px;
+  }
+}
